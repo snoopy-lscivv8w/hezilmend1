@@ -80,4 +80,8 @@ public class Restaurant {
         return name;
     }
 
+    public int getOrderValue(List<Item> item){
+        return 0;
+    }
+
 }

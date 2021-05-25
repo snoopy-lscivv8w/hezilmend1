@@ -74,7 +74,6 @@ class RestaurantTest {
     @Test
     public void total_order_value_returned_when_item_is_present_in_menu() {
         defaultRestaurantDetails();
-
         selectedItem = restaurant.getMenu();
         assertEquals(600,restaurant.getOrderValue(selectedItem));
 

@@ -53,6 +53,7 @@ class RestaurantServiceTest {
         int initialNumberOfRestaurants = service.getRestaurants().size();
         service.removeRestaurant("Amelie's cafe");
         assertEquals(initialNumberOfRestaurants-1, service.getRestaurants().size());
+
     }
 
     @Test
